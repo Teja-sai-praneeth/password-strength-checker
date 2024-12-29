@@ -43,7 +43,7 @@ def check_password_strength(password, common_passwords):
 
 # Main function
 def main():
-    # Use the full path to the file
+    # Replace this with the path to your downloaded `10k-most-common.txt` file
     file_path = r"/content/10k-most-common.txt"
     common_passwords = load_common_passwords(file_path)
 
