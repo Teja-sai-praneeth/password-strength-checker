@@ -44,11 +44,4 @@ password-strength-checker/
 └── .gitignore                # Git ignore file
 ```
 
-## Future Enhancements
-- Add GUI or web-based interface.
-- Implement a secure password generator.
-- Include multilingual support for feedback messages.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
