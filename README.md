@@ -13,11 +13,15 @@ The Password Strength Checker is a Python-based utility designed to evaluate the
    ```bash
    git clone https://github.com/Teja-sai-praneeth/password-strength-checker.git
    ```
-2. Navigate to the project directory:
+2. Download the `10k-most-common.txt` file from a trusted source.
+
+3. Replace the `file_path` in the `password_checker.py` script with the path where you saved the `10k-most-common.txt` file.
+
+4. Navigate to the project directory:
    ```bash
    cd password-strength-checker
    ```
-3. Run the script:
+5. Run the script:
    ```bash
    python password_checker.py
    ```
