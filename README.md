@@ -45,7 +45,6 @@ password-strength-checker/
 ├── 10k-most-common.txt       # Common passwords wordlist (example file)
 ├── LICENSE                   # License file
 ├── README.md                 # Project documentation
-└── .gitignore                # Git ignore file
 ```
 
 
