@@ -4,10 +4,12 @@
 The Password Strength Checker is a Python-based utility designed to evaluate the strength of passwords and provide actionable feedback. It helps users create strong passwords by identifying weaknesses and suggesting improvements.
 
 ## Features
-- **Password Strength Evaluation**: Checks passwords for length, diversity, and inclusion of common patterns.
-- **Feedback System**: Offers suggestions to improve password security.
-- **Customizable Wordlist**: Includes a dictionary of common passwords for comparison.
-- **Sequence Matching**: Detects if at least four consecutive characters from the user's password match any sequence in the common password list and provides appropriate feedback.
+- **Password Strength Evaluation**: Analyzes the password's length, character diversity, and similarity to commonly used passwords.
+- **Sequence Detection**: Identifies weak passwords by detecting sequences of 4 or more consecutive characters from common passwords.
+- **Regular Expression Support**: Utilizes Python's `re` module to efficiently validate passwords for uppercase letters, lowercase letters, numbers, and special characters.
+- **Feedback System**: Provides detailed suggestions to help users create stronger passwords.
+- **Customizable Wordlist**: Allows users to specify their own list of common passwords for comparison.
+
 
 ## How to Use
 1. Clone the repository:
