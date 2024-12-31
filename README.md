@@ -10,8 +10,6 @@ The Password Strength Checker is a Python-based utility designed to evaluate the
 - **Sequence Matching**: Detects if at least four consecutive characters from the user's password match any sequence in the common password list and provides appropriate feedback.
 
 ## How to Use
-
-## How to Use
 1. Clone the repository:
    ```bash
    git clone https://github.com/Teja-sai-praneeth/password-strength-checker.git
