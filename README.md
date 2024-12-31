@@ -39,15 +39,3 @@ Feedback:
 
 ## Requirements
 - Python 3.6 or later
-
-## File Structure
-```
-password-strength-checker/
-|
-├── password_checker.py       # Main script
-├── 10k-most-common.txt       # Common passwords wordlist (example file)
-├── LICENSE                   # License file
-├── README.md                 # Project documentation
-```
-
-
