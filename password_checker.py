@@ -9,6 +9,14 @@ def load_common_passwords(filepath):
         print("Wordlist file not found!")
         return set()
 
+# Function to check for sequence match
+def has_sequence_match(password, common_passwords):
+    for common_password in common_passwords:
+        for i in range(len(common_password) - 3):  # Check for sequences of 4 characters
+            if common_password[i:i+4] in password:
+                return True, common_password[i:i+4]
+    return False, None
+
 # Function to check password strength
 def check_password_strength(password, common_passwords):
     feedback = []
@@ -16,6 +24,11 @@ def check_password_strength(password, common_passwords):
     # Check for dictionary passwords
     if password in common_passwords:
         return "Weak", ["Your password is too common. Avoid using easily guessable passwords."]
+
+    # Check for sequences in common passwords
+    sequence_match, sequence = has_sequence_match(password, common_passwords)
+    if sequence_match:
+        return "Weak", [f"Password sequence '{sequence}' found in common passwords. Avoid such patterns."]
 
     # Check length
     if len(password) < 8:
