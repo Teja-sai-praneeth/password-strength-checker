@@ -1,3 +1,4 @@
+# Imports the `re` module, which provides support for working with regular expressions,allowing pattern matching and searching functionality used in the functions below.
 import re
 
 # Load common passwords from a file
